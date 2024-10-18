@@ -1,4 +1,4 @@
 # Symbols should not be shipped for C++ libraries; see
 # https://wiki.debian.org/UsingSymbolsFiles#C.2B-.2B-_libraries
 no-symbols-control-file
-libquazip1-qt5-1t64: package-name-doesnt-match-sonames libquazip1-qt5-1
+libquazip1-qt5-1: package-name-doesnt-match-sonames libquazip1-qt5-1

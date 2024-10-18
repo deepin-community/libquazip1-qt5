@@ -16,10 +16,7 @@ Vcs-Browser: https://salsa.debian.org/BenTheTechGuy/libquazip1-qt5
 Homepage: https://github.com/stachenov/quazip
 Rules-Requires-Root: no
 
-Package: libquazip1-qt5-1t64
-Provides: ${t64:Provides}
-Replaces: libquazip1-qt5-1
-Breaks: libquazip1-qt5-1 (<< ${source:Version})
+Package: libquazip1-qt5-1
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -38,7 +35,7 @@ Depends:
  qtbase5-dev,
  libbz2-dev,
  zlib1g-dev,
- libquazip1-qt5-1t64 (= ${binary:Version})
+ libquazip1-qt5-1 (= ${binary:Version})
 Description: Qt/C++ wrapper over minizip - Version 1 (Qt5) - development files
  QuaZip is the C++ wrapper for Gilles Vollant's ZIP/UNZIP package (AKA
  Minizip) using Trolltech's Qt library.
